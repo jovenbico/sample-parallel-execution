@@ -8,7 +8,7 @@ public class ApplicationServiceTest {
 
 	@Test
 	public void work() {
-		service.work();
+		service.workParallel();
 	}
 
 }

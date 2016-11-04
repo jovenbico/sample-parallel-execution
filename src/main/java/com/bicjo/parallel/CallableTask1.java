@@ -13,9 +13,8 @@ public class CallableTask1 implements Callable<Integer> {
 	@Override
 	public Integer call() throws Exception {
 
-		System.out.println(">>>task1");
-		Thread.sleep(2 + 1000);
-		System.out.println("<<<task1");
+		Thread.sleep(1 + 1000);
+		System.out.println("<<<task1 " + this.value);
 
 		return value;
 	}

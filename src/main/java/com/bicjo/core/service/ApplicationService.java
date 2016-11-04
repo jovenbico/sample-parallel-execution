@@ -17,7 +17,7 @@ public class ApplicationService implements IService {
 
 	@SuppressWarnings("serial")
 	@Override
-	public void work() {
+	public void workParallel() {
 		CallableTask1 task1 = new CallableTask1(1);
 		CallableTask2 task2 = new CallableTask2("2");
 		CallableTask3 task3 = new CallableTask3(new ArrayList<String>() {
